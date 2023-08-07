@@ -1,0 +1,10 @@
+# https://prettier.io/docs/en/ignore.html
+
+/node_modules
+/dist
+/doc
+/public
+/src/assets/styles/ele
+/src/auto-imports.d.ts
+package-lock.json
+pnpm-lock.yaml

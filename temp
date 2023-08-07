@@ -1,0 +1,9 @@
+
+// "eslint --fix \"./src/**/*.{vue,ts,tsx,js,jsx}\"",
+// "stylelint --fix \"./src/**/*.{html,vue,css,sass,scss}\"",
+
+// ,
+// "**/*.{html,vue,css,sass,scss}": [
+// 	"stylelint --fix",
+// 	"prettier --write"
+// ]

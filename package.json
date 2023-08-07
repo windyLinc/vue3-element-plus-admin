@@ -1,0 +1,67 @@
+{
+	"name": "nigeria-h5-admin_system",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc && vite build",
+		"build:dev": "vue-tsc && vite build --mode dev",
+		"build:prod": "vue-tsc && vite build --mode prod",
+		"lint": "eslint --fix \"./src/**/*.{vue,ts,tsx,js,jsx}\"",
+		"preview": "vite preview",
+		"prepare": "husky install",
+		"lang": "cross-env langarg='en,cn' dirs='./docs/lang' distdir='./src/i18n/xlsx/' node setI18nLang.cjs",
+		"format": "prettier ",
+		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+	},
+	"dependencies": {
+		"element-plus": "^2.3.7",
+		"pinia": "^2.1.4",
+		"vue": "^3.2.47",
+		"vue-i18n": "9.3.0-beta.22",
+		"vue-router": "^4.2.2"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.6.6",
+		"@commitlint/config-conventional": "^17.6.6",
+		"@element-plus/icons-vue": "^2.1.0",
+		"@types/vue-router": "^2.0.0",
+		"@typescript-eslint/parser": "^5.61.0",
+		"@vitejs/plugin-vue": "^4.1.0",
+		"@vue/cli-plugin-eslint": "^5.0.8",
+		"@vue/cli-plugin-typescript": "^5.0.8",
+		"conventional-changelog": "^4.0.0",
+		"conventional-changelog-cli": "^3.0.0",
+		"cross-env": "^7.0.3",
+		"eslint": "^8.44.0",
+		"eslint-plugin-vue": "^9.15.1",
+		"fast-glob": "^3.3.0",
+		"glob": "^10.3.3",
+		"husky": "^8.0.3",
+		"install": "^0.13.0",
+		"lint-staged": "^13.2.3",
+		"prettier": "^2.8.8",
+		"rollup-plugin-visualizer": "^5.9.2",
+		"stylelint": "^15.9.0",
+		"stylelint-config-prettier": "^9.0.5",
+		"stylelint-config-recommended-vue": "^1.4.0",
+		"stylelint-config-standard": "^33.0.0",
+		"typescript": "^5.0.2",
+		"unplugin-auto-import": "^0.16.4",
+		"unplugin-icons": "^0.16.3",
+		"unplugin-vue-components": "^0.25.1",
+		"vite": "^4.3.9",
+		"vite-plugin-compression": "^0.5.1",
+		"vite-plugin-svg-icons": "^2.0.1",
+		"vue-tsc": "^1.4.2",
+		"xlsx": "^0.18.5"
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS",
+			"pre-commit": "lint-staged",
+			"pre-merge-commit": "lint-staged"
+		}
+	}
+}

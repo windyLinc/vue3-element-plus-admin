@@ -1,0 +1,49 @@
+.ft-primary {
+	color: var(--el-color-primary);
+}
+.ft-white {
+	color: var(--el-color-white);
+}
+.ft-regular {
+	color: var(--el-text-color-regular);
+}
+.ft-info {
+	color: var(---el-color-);
+}
+
+.fs-big {
+	font-size: var(--el-font-size-big);
+}
+.fs-large {
+	font-size: var(--el-font-size-large);
+}
+.fs-primary {
+	font-size: var(--el-font-size-primary);
+}
+
+.back-primary {
+	background: var(--el-back-primary);
+}
+.back-grey {
+	background: var(--el-back-grey);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.brd-primary {
+	border-radius: 4px;
+}
+
+.h-full {
+	height: 100%;
+}
+
+.w-full {
+	width: 100%;
+}

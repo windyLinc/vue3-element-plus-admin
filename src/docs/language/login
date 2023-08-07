@@ -1,0 +1,5 @@
+const LOGIN_LANGUAGE_I18N = {
+	login: '登录'
+}
+
+export default LOGIN_LANGUAGE_I18N

@@ -1,0 +1,17 @@
+import LOGIN_LANGUAGE_I18N from './login'
+import SYSTEM_LANGUAGE_I18N from './system'
+import MENU_MANAGEMENT_LANGUAGE_I18N from './system/menuManagement'
+import DICT_MANAGEMENT_LANGUAGE_I18N from './system/dictManagement'
+import FORM_LANGUAGE_I18N from './form'
+import BUTTON_LANGUAGE_I18N from './button'
+import { XLSX_LANGUAGE_I18N } from '@/i18n/xlsx/_cn'
+
+export default {
+	LOGIN_LANGUAGE_I18N,
+	SYSTEM_LANGUAGE_I18N,
+	XLSX_LANGUAGE_I18N,
+	MENU_MANAGEMENT_LANGUAGE_I18N,
+	DICT_MANAGEMENT_LANGUAGE_I18N,
+	FORM_LANGUAGE_I18N,
+	BUTTON_LANGUAGE_I18N,
+}
